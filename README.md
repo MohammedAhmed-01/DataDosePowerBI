@@ -43,10 +43,10 @@
 
 </div>
 
-<img src="../assets/headers/divider.svg" width="100%" alt=""/>
+<img src="./assets/headers/divider.svg" width="100%" alt=""/>
 
 <a id="toc"></a>
-<p align="center"><img src="../assets/headers/toc.svg" width="100%" alt="Table of Contents"/></p>
+<p align="center"><img src="./assets/headers/toc.svg" width="100%" alt="Table of Contents"/></p>
 
 <table><tr><td>
 
@@ -59,10 +59,10 @@
 
 </td></tr></table>
 
-<img src="../assets/headers/divider.svg" width="100%" alt=""/>
+<img src="./assets/headers/divider.svg" width="100%" alt=""/>
 
 <a id="overview"></a>
-<p align="center"><img src="../assets/headers/overview.svg" width="100%" alt="Overview"/></p>
+<p align="center"><img src="./assets/headers/overview.svg" width="100%" alt="Overview"/></p>
 
 DataDose is a pharmaceutical drug-safety analytics platform. This module covers the **Power BI reporting layer** built on top of the `PHARMA_ANALYTICS_DB` Snowflake warehouse — turning raw drug metadata and prescription transactions into interactive dashboards for drug safety, interaction risk, and pharmacy performance monitoring.
 
@@ -100,10 +100,10 @@ Single vs. combination products, dosage forms, and administration routes — rev
 | **Schema Version** | v3.0 |
 
 <p align="right"><sub><a href="#toc">↑ back to top</a></sub></p>
-<img src="../assets/headers/divider.svg" width="100%" alt=""/>
+<img src="./assets/headers/divider.svg" width="100%" alt=""/>
 
 <a id="data-model"></a>
-<p align="center"><img src="../assets/headers/data-model.svg" width="100%" alt="Data Model"/></p>
+<p align="center"><img src="./assets/headers/data-model.svg" width="100%" alt="Data Model"/></p>
 
 The dashboard connects to a **star-schema warehouse** in Snowflake:
 
@@ -135,10 +135,10 @@ erDiagram
 > For the flat CSV-based build, the primary source is `DataDoseDataset-Cleaned` — containing per-drug fields: `dosage_form`, `route_of_administration`, `warnings_count`, `drug_interactions_count`, `adverse_reactions_count`, and `indications_count`. See the **DataDose Dimensional Model Guide** for the full star-schema, SCD2 design, and clustering strategy.
 
 <p align="right"><sub><a href="#toc">↑ back to top</a></sub></p>
-<img src="../assets/headers/divider.svg" width="100%" alt=""/>
+<img src="./assets/headers/divider.svg" width="100%" alt=""/>
 
 <a id="key-dax-measures"></a>
-<p align="center"><img src="../assets/headers/dax-measures.svg" width="100%" alt="Key DAX Measures"/></p>
+<p align="center"><img src="./assets/headers/dax-measures.svg" width="100%" alt="Key DAX Measures"/></p>
 
 All measures are defined against `DataDoseDataset-Cleaned`. Full list in `Complete_List_of_ALL_Measures.txt`.
 
@@ -187,10 +187,10 @@ All measures are defined against `DataDoseDataset-Cleaned`. Full list in `Comple
 </details>
 
 <p align="right"><sub><a href="#toc">↑ back to top</a></sub></p>
-<img src="../assets/headers/divider.svg" width="100%" alt=""/>
+<img src="./assets/headers/divider.svg" width="100%" alt=""/>
 
 <a id="dashboard-pages"></a>
-<p align="center"><img src="../assets/headers/dashboard-pages.svg" width="100%" alt="Dashboard Pages"/></p>
+<p align="center"><img src="./assets/headers/dashboard-pages.svg" width="100%" alt="Dashboard Pages"/></p>
 
 <table>
 <tr>
@@ -233,10 +233,10 @@ Combination vs. single product mix, dosage form and route percentages
 </table>
 
 <p align="right"><sub><a href="#toc">↑ back to top</a></sub></p>
-<img src="../assets/headers/divider.svg" width="100%" alt=""/>
+<img src="./assets/headers/divider.svg" width="100%" alt=""/>
 
 <a id="access"></a>
-<p align="center"><img src="../assets/headers/access.svg" width="100%" alt="Access"/></p>
+<p align="center"><img src="./assets/headers/access.svg" width="100%" alt="Access"/></p>
 
 | Resource | Link |
 |---|---|
@@ -258,10 +258,10 @@ Mode:      Import (static dashboards) or DirectQuery (live data)
 > ⚠️ Never commit Snowflake credentials to source control. Store secrets in **Azure Key Vault** (or your secrets manager of choice) as described in the Setup Guide.
 
 <p align="right"><sub><a href="#toc">↑ back to top</a></sub></p>
-<img src="../assets/headers/divider.svg" width="100%" alt=""/>
+<img src="./assets/headers/divider.svg" width="100%" alt=""/>
 
 <a id="tech-stack"></a>
-<p align="center"><img src="../assets/headers/techstack-pipeline.svg" width="100%" alt="Tech Stack"/></p>
+<p align="center"><img src="./assets/headers/techstack-pipeline.svg" width="100%" alt="Tech Stack"/></p>
 
 <div align="center">
 
@@ -284,10 +284,10 @@ Mode:      Import (static dashboards) or DirectQuery (live data)
 | **Graph Export** | Neo4j via `V_DRUG_INTERACTION_GRAPH` | Optional downstream graph analytics |
 
 <p align="right"><sub><a href="#toc">↑ back to top</a></sub></p>
-<img src="../assets/headers/divider.svg" width="100%" alt=""/>
+<img src="./assets/headers/divider.svg" width="100%" alt=""/>
 
 <a id="license--confidentiality"></a>
-<p align="center"><img src="../assets/headers/license.svg" width="100%" alt="License &amp; Confidentiality"/></p>
+<p align="center"><img src="./assets/headers/license.svg" width="100%" alt="License &amp; Confidentiality"/></p>
 
 <div align="center">
 
@@ -299,7 +299,7 @@ See [LICENSE](LICENSE) file for full details.
 </div>
 
 <p align="right"><sub><a href="#toc">↑ back to top</a></sub></p>
-<img src="../assets/headers/divider.svg" width="100%" alt=""/>
+<img src="./assets/headers/divider.svg" width="100%" alt=""/>
 
 <br/>
 
