@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/headers/powerbi-banner.svg" width="100%" alt="Power BI Dashboard — DataDose Pharma Analytics Reporting Layer"/>
+  <img src="./assets/headers/powerbi-banner.svg" width="100%" alt="Power BI Dashboard — DataDose Pharma Analytics Reporting Layer"/>
 </p>
 
 <div align="center">
